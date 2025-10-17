@@ -1,4 +1,36 @@
-Name: Nadia Lovely
-NRP: 5026231007
-Subject: Information Asset Protection
+# 🔒 Cryptography & Hashing Assignment (Information Asset Protection)
 
+## Student Details
+- Name: Nadia Lovely
+- NRP: 5026231007
+- Class: A
+
+## Assignment Overview
+
+This repository contains the source code for the 4th assignment of the **Information Asset Protection** course.
+
+The goal of this assignment was to **recover a secret flag** by analyzing a given cryptographic challenge, specifically one involving a variant of the **XOR cipher** and **hashing**.
+
+## Solution Overview
+
+The challenge was addressed using a Python-based brute-force approach.
+
+* **Challenge Type:** [e.g., Weak Hash Collision, Double XOR Cipher, etc. - *You should specify this*]
+* **Methodology:** The script, `solver_xorxor_bruteforce.py`, implemented a dictionary attack or limited brute-force search against the cryptographic function to deduce the key or the flag components.
+* **Final Output:** The recovered flag is obtained by executing `recover_flag.py` using the results of the solver.
+
+## Getting Started
+
+Follow these steps to run the recovery scripts.
+
+### Prerequisites
+
+You need Python 3.x installed. All necessary libraries are listed in `requirements.txt`.
+
+```bash
+# Clone the repository
+git clone [https://github.com/nadialvy/cryptography-hashing-assignment.git](https://github.com/nadialvy/cryptography-hashing-assignment.git)
+cd cryptography-hashing-assignment
+
+# Install dependencies
+pip install -r requirements.txt
