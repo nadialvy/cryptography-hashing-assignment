@@ -15,9 +15,7 @@ The goal of this assignment was to **recover a secret flag** by analyzing a give
 
 The challenge was addressed using a Python-based brute-force approach.
 
-* **Challenge Type:** [e.g., Weak Hash Collision, Double XOR Cipher, etc. - *You should specify this*]
-* **Methodology:** The script, `solver_xorxor_bruteforce.py`, implemented a dictionary attack or limited brute-force search against the cryptographic function to deduce the key or the flag components.
-* **Final Output:** The recovered flag is obtained by executing `recover_flag.py` using the results of the solver.
+* **Challenge Type:** [XOR, SHA 256, RSA]
 
 ## Getting Started
 
